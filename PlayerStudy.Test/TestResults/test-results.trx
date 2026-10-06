@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="21666455-5446-4630-9914-e59d5f3e3203" name="TUTTU@TIUTTU-GRIG 2026-10-06 13:54:14" runUser="TIUTTU-GRIG\TUTTU" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-06T13:54:14.0299121+05:30" queuing="2026-10-06T13:54:14.0299123+05:30" start="2026-10-06T13:54:13.3213373+05:30" finish="2026-10-06T13:54:14.0771897+05:30" />
+  <TestSettings name="default" id="a50a087c-30d9-4f08-8985-7805cc1466fd">
+    <Deployment runDeploymentRoot="TUTTU_TIUTTU-GRIG_2026-10-06_13_54_14" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="05c9ba99-2aaf-4a17-bdd3-17404d9235bd" testId="7e1fe6df-1540-083b-912a-b3584c354797" testName="ChangeState_FirstState_ShouldEnterState" computerName="TIUTTU-GRIG" duration="00:00:00.0040360" startTime="2026-10-06T13:54:13.9232089+05:30" endTime="2026-10-06T13:54:13.9272440+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05c9ba99-2aaf-4a17-bdd3-17404d9235bd" />
+    <UnitTestResult executionId="07c75cae-4ead-4e7f-8582-d2d145413cf1" testId="77fd14b4-59f7-b010-e560-dbd780e51a5d" testName="ChangeState_SameState_ShouldWriteDebugLog" computerName="TIUTTU-GRIG" duration="00:00:00.0006660" startTime="2026-10-06T13:54:13.9290083+05:30" endTime="2026-10-06T13:54:13.9296743+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07c75cae-4ead-4e7f-8582-d2d145413cf1" />
+    <UnitTestResult executionId="dae70c18-d3ba-4310-8a58-79192f674a79" testId="7e9340d0-2a85-4390-96c7-bd9ee8bffe64" testName="Event_ShouldBeMessage" computerName="TIUTTU-GRIG" duration="00:00:00.0001470" startTime="2026-10-06T13:54:13.9207696+05:30" endTime="2026-10-06T13:54:13.9209162+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dae70c18-d3ba-4310-8a58-79192f674a79" />
+    <UnitTestResult executionId="11ae26bd-f918-468d-b017-59a75113f9f9" testId="9ffaad03-86cd-35eb-fdbb-8a730ccb75fb" testName="Command_ShouldBeDistinctFromEvent" computerName="TIUTTU-GRIG" duration="00:00:00.0073920" startTime="2026-10-06T13:54:13.9056032+05:30" endTime="2026-10-06T13:54:13.9129395+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="11ae26bd-f918-468d-b017-59a75113f9f9" />
+    <UnitTestResult executionId="28f2fa9f-210b-461f-a054-dba571ec79ff" testId="70f322c1-dd10-4849-e48d-7c28a4b6ec6b" testName="ChangeState_WhenEnterFails_ShouldReEnterPreviousState" computerName="TIUTTU-GRIG" duration="00:00:00.0008540" startTime="2026-10-06T13:54:13.9375855+05:30" endTime="2026-10-06T13:54:13.9384387+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="28f2fa9f-210b-461f-a054-dba571ec79ff" />
+    <UnitTestResult executionId="f2a38d98-21a2-4098-9ab2-6443edf86f62" testId="728dfbac-ca0f-c755-9ff2-00b42cc52d7d" testName="ChangeState_SameState_ShouldDoNothing" computerName="TIUTTU-GRIG" duration="00:00:00.0004410" startTime="2026-10-06T13:54:13.9285579+05:30" endTime="2026-10-06T13:54:13.9289982+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2a38d98-21a2-4098-9ab2-6443edf86f62" />
+    <UnitTestResult executionId="498ea0c8-1246-4701-9e43-3f9c0c3dce4c" testId="17f2d511-a7de-af86-79d0-f72a1f8e4268" testName="ChangeState_WhenNullIsProvided_ShouldWriteErrorLog" computerName="TIUTTU-GRIG" duration="00:00:00.0001330" startTime="2026-10-06T13:54:13.9423554+05:30" endTime="2026-10-06T13:54:13.9424886+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="498ea0c8-1246-4701-9e43-3f9c0c3dce4c" />
+    <UnitTestResult executionId="f75e9645-50d5-4e0b-a3cf-d20c9e533f10" testId="0210260e-5923-6555-917a-b5bc460f3671" testName="Command_ShouldBeMessage" computerName="TIUTTU-GRIG" duration="00:00:00.0005210" startTime="2026-10-06T13:54:13.9141064+05:30" endTime="2026-10-06T13:54:13.9146271+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f75e9645-50d5-4e0b-a3cf-d20c9e533f10" />
+    <UnitTestResult executionId="d92b095e-600a-4d36-833d-f12c24b988fb" testId="3badf56f-08fd-73cc-6052-2c21d917bc72" testName="ChangeState_WhenNullIsProvided_ShouldReturnFailure" computerName="TIUTTU-GRIG" duration="00:00:00.0004810" startTime="2026-10-06T13:54:13.9418645+05:30" endTime="2026-10-06T13:54:13.9423453+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d92b095e-600a-4d36-833d-f12c24b988fb" />
+    <UnitTestResult executionId="5f96cad2-34f6-426e-9ccb-bebd46cac053" testId="f50be6e9-a35f-0f1f-1662-42f8b3998072" testName="ChangeState_SuccessfulTransition_ShouldWriteDebugLog" computerName="TIUTTU-GRIG" duration="00:00:00.0002300" startTime="2026-10-06T13:54:13.9373471+05:30" endTime="2026-10-06T13:54:13.9375767+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5f96cad2-34f6-426e-9ccb-bebd46cac053" />
+    <UnitTestResult executionId="b9ff03ca-1ca1-4643-bf9f-25a9620b176e" testId="1d9b4937-4d29-7f9e-77b0-63b269c8c448" testName="Command_ShouldImplementICommand" computerName="TIUTTU-GRIG" duration="00:00:00.0001470" startTime="2026-10-06T13:54:13.9146459+05:30" endTime="2026-10-06T13:54:13.9147925+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b9ff03ca-1ca1-4643-bf9f-25a9620b176e" />
+    <UnitTestResult executionId="7ed92212-c394-4690-a43a-13ec9ff5ad19" testId="3ee478c9-d317-d35b-b929-efeab9a70cfb" testName="Constructor_ShouldStartWithNoCurrentState" computerName="TIUTTU-GRIG" duration="00:00:00.0001050" startTime="2026-10-06T13:54:13.9424973+05:30" endTime="2026-10-06T13:54:13.9426025+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ed92212-c394-4690-a43a-13ec9ff5ad19" />
+    <UnitTestResult executionId="afca0b28-d75a-4027-8760-8c6955722378" testId="c1507291-8909-35aa-caea-0104415588a4" testName="ChangeState_MultipleTransitions_ShouldMaintainCorrectCurrentState" computerName="TIUTTU-GRIG" duration="00:00:00.0012650" startTime="2026-10-06T13:54:13.9272614+05:30" endTime="2026-10-06T13:54:13.9285263+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="afca0b28-d75a-4027-8760-8c6955722378" />
+    <UnitTestResult executionId="cb780bdc-a85b-4cd9-92f5-c0d770ae84c6" testId="f038e809-5991-fb49-fac9-8fbd0073335a" testName="ChangeState_WhenEnterFails_ShouldWriteErrorLog" computerName="TIUTTU-GRIG" duration="00:00:00.0002170" startTime="2026-10-06T13:54:13.9394583+05:30" endTime="2026-10-06T13:54:13.9396754+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb780bdc-a85b-4cd9-92f5-c0d770ae84c6" />
+    <UnitTestResult executionId="8a08bb70-1806-472f-a9ca-f81a04f232f9" testId="6afb6b66-3780-9485-cfd7-aa67908cc81d" testName="ChangeState_WhenExitFails_ShouldWriteErrorLog" computerName="TIUTTU-GRIG" duration="00:00:00.0002090" startTime="2026-10-06T13:54:13.9408937+05:30" endTime="2026-10-06T13:54:13.9411022+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a08bb70-1806-472f-a9ca-f81a04f232f9" />
+    <UnitTestResult executionId="b05bbdd0-4c91-4395-8b0f-073d273cbba0" testId="e6f473f1-0f9f-4931-545f-73c257c3465a" testName="ChangeState_WhenExitFails_ShouldRejectTransition" computerName="TIUTTU-GRIG" duration="00:00:00.0004929" startTime="2026-10-06T13:54:13.9403920+05:30" endTime="2026-10-06T13:54:13.9408848+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b05bbdd0-4c91-4395-8b0f-073d273cbba0" />
+    <UnitTestResult executionId="415825a2-2b06-4e4a-9af5-59a6b802293d" testId="e48dc502-235f-3288-69cb-d837ee38f1d2" testName="Event_ShouldBeDistinctFromCommand" computerName="TIUTTU-GRIG" duration="00:00:00.0001730" startTime="2026-10-06T13:54:13.9205872+05:30" endTime="2026-10-06T13:54:13.9207603+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="415825a2-2b06-4e4a-9af5-59a6b802293d" />
+    <UnitTestResult executionId="060a7a44-0fc8-4b18-9439-d6385aa64ad8" testId="1766c1e5-24dc-9973-5d7a-f55c573226db" testName="ConcreteCommand_ShouldBeAbleToCarryCommandData" computerName="TIUTTU-GRIG" duration="00:00:00.0055319" startTime="2026-10-06T13:54:13.9148020+05:30" endTime="2026-10-06T13:54:13.9203338+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="060a7a44-0fc8-4b18-9439-d6385aa64ad8" />
+    <UnitTestResult executionId="43029dc3-37a2-4247-a04a-2213328c41b8" testId="1b5fdca7-79bb-0aea-bc47-0e9b0ae925e7" testName="ChangeState_ShouldExitPreviousStateAndEnterNewState" computerName="TIUTTU-GRIG" duration="00:00:00.0006310" startTime="2026-10-06T13:54:13.9296949+05:30" endTime="2026-10-06T13:54:13.9303258+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43029dc3-37a2-4247-a04a-2213328c41b8" />
+    <UnitTestResult executionId="680dd096-9d68-4dbc-8818-0656276074f8" testId="122c5757-6b3b-f3ed-dce9-39b46d0e7f81" testName="ConcreteEvent_ShouldBeAbleToCarryEventData" computerName="TIUTTU-GRIG" duration="00:00:00.0002230" startTime="2026-10-06T13:54:13.9203551+05:30" endTime="2026-10-06T13:54:13.9205782+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="680dd096-9d68-4dbc-8818-0656276074f8" />
+    <UnitTestResult executionId="bb35656a-7cf8-4d9d-ab45-2a0118b8d41a" testId="c218272f-61c4-09da-f3b8-cffc9ed72425" testName="ChangeState_WhenEnterFails_ShouldRejectTransition" computerName="TIUTTU-GRIG" duration="00:00:00.0009880" startTime="2026-10-06T13:54:13.9384595+05:30" endTime="2026-10-06T13:54:13.9394475+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb35656a-7cf8-4d9d-ab45-2a0118b8d41a" />
+    <UnitTestResult executionId="e9c826c1-9870-4464-8e96-95a4e072ae4c" testId="e6610fff-dc8f-197f-54c9-e7c0c67c903b" testName="ChangeState_WhenExitThrows_ShouldReturnFailure" computerName="TIUTTU-GRIG" duration="00:00:00.0007360" startTime="2026-10-06T13:54:13.9411132+05:30" endTime="2026-10-06T13:54:13.9418485+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9c826c1-9870-4464-8e96-95a4e072ae4c" />
+    <UnitTestResult executionId="a72b0aab-de11-4b58-bf6d-8c8ce7966a06" testId="c25642e2-f655-6451-a9cf-cc6890dd573d" testName="ChangeState_ShouldExitPreviousStateBeforeEnteringNewState" computerName="TIUTTU-GRIG" duration="00:00:00.0069900" startTime="2026-10-06T13:54:13.9303354+05:30" endTime="2026-10-06T13:54:13.9373251+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a72b0aab-de11-4b58-bf6d-8c8ce7966a06" />
+    <UnitTestResult executionId="527495b7-b3a8-43fa-a137-2f31694fc245" testId="2cd4a441-f24a-8cf3-8cf2-644ab74e1e8d" testName="Event_ShouldImplementIEvent" computerName="TIUTTU-GRIG" duration="00:00:00.0001170" startTime="2026-10-06T13:54:13.9209249+05:30" endTime="2026-10-06T13:54:13.9210418+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="527495b7-b3a8-43fa-a137-2f31694fc245" />
+    <UnitTestResult executionId="303bb037-f4b0-41fd-8533-40c66e8fa52f" testId="827b6f9d-db54-38ba-d2f5-ff879e191a25" testName="ChangeState_WhenEnterThrows_ShouldReturnFailure" computerName="TIUTTU-GRIG" duration="00:00:00.0006980" startTime="2026-10-06T13:54:13.9396845+05:30" endTime="2026-10-06T13:54:13.9403821+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="303bb037-f4b0-41fd-8533-40c66e8fa52f" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ChangeState_WhenEnterFails_ShouldReEnterPreviousState" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="70f322c1-dd10-4849-e48d-7c28a4b6ec6b">
+      <Execution id="28f2fa9f-210b-461f-a054-dba571ec79ff" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.StateMachine.StateMachineTest" name="ChangeState_WhenEnterFails_ShouldReEnterPreviousState" />
+    </UnitTest>
+    <UnitTest name="ChangeState_WhenEnterFails_ShouldWriteErrorLog" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="f038e809-5991-fb49-fac9-8fbd0073335a">
+      <Execution id="cb780bdc-a85b-4cd9-92f5-c0d770ae84c6" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.StateMachine.StateMachineTest" name="ChangeState_WhenEnterFails_ShouldWriteErrorLog" />
+    </UnitTest>
+    <UnitTest name="ChangeState_WhenNullIsProvided_ShouldWriteErrorLog" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="17f2d511-a7de-af86-79d0-f72a1f8e4268">
+      <Execution id="498ea0c8-1246-4701-9e43-3f9c0c3dce4c" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.StateMachine.StateMachineTest" name="ChangeState_WhenNullIsProvided_ShouldWriteErrorLog" />
+    </UnitTest>
+    <UnitTest name="ChangeState_ShouldExitPreviousStateBeforeEnteringNewState" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="c25642e2-f655-6451-a9cf-cc6890dd573d">
+      <Execution id="a72b0aab-de11-4b58-bf6d-8c8ce7966a06" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.StateMachine.StateMachineTest" name="ChangeState_ShouldExitPreviousStateBeforeEnteringNewState" />
+    </UnitTest>
+    <UnitTest name="ChangeState_SameState_ShouldDoNothing" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="728dfbac-ca0f-c755-9ff2-00b42cc52d7d">
+      <Execution id="f2a38d98-21a2-4098-9ab2-6443edf86f62" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.StateMachine.StateMachineTest" name="ChangeState_SameState_ShouldDoNothing" />
+    </UnitTest>
+    <UnitTest name="ChangeState_WhenExitFails_ShouldWriteErrorLog" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="6afb6b66-3780-9485-cfd7-aa67908cc81d">
+      <Execution id="8a08bb70-1806-472f-a9ca-f81a04f232f9" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.StateMachine.StateMachineTest" name="ChangeState_WhenExitFails_ShouldWriteErrorLog" />
+    </UnitTest>
+    <UnitTest name="Event_ShouldBeMessage" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="7e9340d0-2a85-4390-96c7-bd9ee8bffe64">
+      <Execution id="dae70c18-d3ba-4310-8a58-79192f674a79" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.Messaging.MessageContractTest" name="Event_ShouldBeMessage" />
+    </UnitTest>
+    <UnitTest name="ChangeState_ShouldExitPreviousStateAndEnterNewState" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="1b5fdca7-79bb-0aea-bc47-0e9b0ae925e7">
+      <Execution id="43029dc3-37a2-4247-a04a-2213328c41b8" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.StateMachine.StateMachineTest" name="ChangeState_ShouldExitPreviousStateAndEnterNewState" />
+    </UnitTest>
+    <UnitTest name="ChangeState_WhenExitFails_ShouldRejectTransition" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="e6f473f1-0f9f-4931-545f-73c257c3465a">
+      <Execution id="b05bbdd0-4c91-4395-8b0f-073d273cbba0" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.StateMachine.StateMachineTest" name="ChangeState_WhenExitFails_ShouldRejectTransition" />
+    </UnitTest>
+    <UnitTest name="Constructor_ShouldStartWithNoCurrentState" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="3ee478c9-d317-d35b-b929-efeab9a70cfb">
+      <Execution id="7ed92212-c394-4690-a43a-13ec9ff5ad19" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.StateMachine.StateMachineTest" name="Constructor_ShouldStartWithNoCurrentState" />
+    </UnitTest>
+    <UnitTest name="Command_ShouldBeMessage" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="0210260e-5923-6555-917a-b5bc460f3671">
+      <Execution id="f75e9645-50d5-4e0b-a3cf-d20c9e533f10" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.Messaging.MessageContractTest" name="Command_ShouldBeMessage" />
+    </UnitTest>
+    <UnitTest name="ConcreteEvent_ShouldBeAbleToCarryEventData" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="122c5757-6b3b-f3ed-dce9-39b46d0e7f81">
+      <Execution id="680dd096-9d68-4dbc-8818-0656276074f8" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.Messaging.MessageContractTest" name="ConcreteEvent_ShouldBeAbleToCarryEventData" />
+    </UnitTest>
+    <UnitTest name="Command_ShouldBeDistinctFromEvent" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="9ffaad03-86cd-35eb-fdbb-8a730ccb75fb">
+      <Execution id="11ae26bd-f918-468d-b017-59a75113f9f9" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.Messaging.MessageContractTest" name="Command_ShouldBeDistinctFromEvent" />
+    </UnitTest>
+    <UnitTest name="ChangeState_WhenNullIsProvided_ShouldReturnFailure" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="3badf56f-08fd-73cc-6052-2c21d917bc72">
+      <Execution id="d92b095e-600a-4d36-833d-f12c24b988fb" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.StateMachine.StateMachineTest" name="ChangeState_WhenNullIsProvided_ShouldReturnFailure" />
+    </UnitTest>
+    <UnitTest name="ChangeState_WhenEnterThrows_ShouldReturnFailure" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="827b6f9d-db54-38ba-d2f5-ff879e191a25">
+      <Execution id="303bb037-f4b0-41fd-8533-40c66e8fa52f" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.StateMachine.StateMachineTest" name="ChangeState_WhenEnterThrows_ShouldReturnFailure" />
+    </UnitTest>
+    <UnitTest name="ChangeState_FirstState_ShouldEnterState" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="7e1fe6df-1540-083b-912a-b3584c354797">
+      <Execution id="05c9ba99-2aaf-4a17-bdd3-17404d9235bd" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.StateMachine.StateMachineTest" name="ChangeState_FirstState_ShouldEnterState" />
+    </UnitTest>
+    <UnitTest name="Event_ShouldImplementIEvent" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="2cd4a441-f24a-8cf3-8cf2-644ab74e1e8d">
+      <Execution id="527495b7-b3a8-43fa-a137-2f31694fc245" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.Messaging.MessageContractTest" name="Event_ShouldImplementIEvent" />
+    </UnitTest>
+    <UnitTest name="ChangeState_SuccessfulTransition_ShouldWriteDebugLog" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="f50be6e9-a35f-0f1f-1662-42f8b3998072">
+      <Execution id="5f96cad2-34f6-426e-9ccb-bebd46cac053" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.StateMachine.StateMachineTest" name="ChangeState_SuccessfulTransition_ShouldWriteDebugLog" />
+    </UnitTest>
+    <UnitTest name="Command_ShouldImplementICommand" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="1d9b4937-4d29-7f9e-77b0-63b269c8c448">
+      <Execution id="b9ff03ca-1ca1-4643-bf9f-25a9620b176e" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.Messaging.MessageContractTest" name="Command_ShouldImplementICommand" />
+    </UnitTest>
+    <UnitTest name="ConcreteCommand_ShouldBeAbleToCarryCommandData" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="1766c1e5-24dc-9973-5d7a-f55c573226db">
+      <Execution id="060a7a44-0fc8-4b18-9439-d6385aa64ad8" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.Messaging.MessageContractTest" name="ConcreteCommand_ShouldBeAbleToCarryCommandData" />
+    </UnitTest>
+    <UnitTest name="ChangeState_WhenExitThrows_ShouldReturnFailure" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="e6610fff-dc8f-197f-54c9-e7c0c67c903b">
+      <Execution id="e9c826c1-9870-4464-8e96-95a4e072ae4c" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.StateMachine.StateMachineTest" name="ChangeState_WhenExitThrows_ShouldReturnFailure" />
+    </UnitTest>
+    <UnitTest name="ChangeState_MultipleTransitions_ShouldMaintainCorrectCurrentState" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="c1507291-8909-35aa-caea-0104415588a4">
+      <Execution id="afca0b28-d75a-4027-8760-8c6955722378" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.StateMachine.StateMachineTest" name="ChangeState_MultipleTransitions_ShouldMaintainCorrectCurrentState" />
+    </UnitTest>
+    <UnitTest name="Event_ShouldBeDistinctFromCommand" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="e48dc502-235f-3288-69cb-d837ee38f1d2">
+      <Execution id="415825a2-2b06-4e4a-9af5-59a6b802293d" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.Messaging.MessageContractTest" name="Event_ShouldBeDistinctFromCommand" />
+    </UnitTest>
+    <UnitTest name="ChangeState_SameState_ShouldWriteDebugLog" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="77fd14b4-59f7-b010-e560-dbd780e51a5d">
+      <Execution id="07c75cae-4ead-4e7f-8582-d2d145413cf1" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.StateMachine.StateMachineTest" name="ChangeState_SameState_ShouldWriteDebugLog" />
+    </UnitTest>
+    <UnitTest name="ChangeState_WhenEnterFails_ShouldRejectTransition" storage="d:\work\game_dev\games\player-study\playerstudy.test\bin\debug\net8.0\playerstudy.test.dll" id="c218272f-61c4-09da-f3b8-cffc9ed72425">
+      <Execution id="bb35656a-7cf8-4d9d-ab45-2a0118b8d41a" />
+      <TestMethod codeBase="D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll" adapterTypeName="executor://nunit3testexecutor/" className="PlayerStudy.Test.StateMachine.StateMachineTest" name="ChangeState_WhenEnterFails_ShouldRejectTransition" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="7e1fe6df-1540-083b-912a-b3584c354797" executionId="05c9ba99-2aaf-4a17-bdd3-17404d9235bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77fd14b4-59f7-b010-e560-dbd780e51a5d" executionId="07c75cae-4ead-4e7f-8582-d2d145413cf1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e9340d0-2a85-4390-96c7-bd9ee8bffe64" executionId="dae70c18-d3ba-4310-8a58-79192f674a79" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ffaad03-86cd-35eb-fdbb-8a730ccb75fb" executionId="11ae26bd-f918-468d-b017-59a75113f9f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="70f322c1-dd10-4849-e48d-7c28a4b6ec6b" executionId="28f2fa9f-210b-461f-a054-dba571ec79ff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="728dfbac-ca0f-c755-9ff2-00b42cc52d7d" executionId="f2a38d98-21a2-4098-9ab2-6443edf86f62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17f2d511-a7de-af86-79d0-f72a1f8e4268" executionId="498ea0c8-1246-4701-9e43-3f9c0c3dce4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0210260e-5923-6555-917a-b5bc460f3671" executionId="f75e9645-50d5-4e0b-a3cf-d20c9e533f10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3badf56f-08fd-73cc-6052-2c21d917bc72" executionId="d92b095e-600a-4d36-833d-f12c24b988fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f50be6e9-a35f-0f1f-1662-42f8b3998072" executionId="5f96cad2-34f6-426e-9ccb-bebd46cac053" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1d9b4937-4d29-7f9e-77b0-63b269c8c448" executionId="b9ff03ca-1ca1-4643-bf9f-25a9620b176e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ee478c9-d317-d35b-b929-efeab9a70cfb" executionId="7ed92212-c394-4690-a43a-13ec9ff5ad19" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c1507291-8909-35aa-caea-0104415588a4" executionId="afca0b28-d75a-4027-8760-8c6955722378" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f038e809-5991-fb49-fac9-8fbd0073335a" executionId="cb780bdc-a85b-4cd9-92f5-c0d770ae84c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6afb6b66-3780-9485-cfd7-aa67908cc81d" executionId="8a08bb70-1806-472f-a9ca-f81a04f232f9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6f473f1-0f9f-4931-545f-73c257c3465a" executionId="b05bbdd0-4c91-4395-8b0f-073d273cbba0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e48dc502-235f-3288-69cb-d837ee38f1d2" executionId="415825a2-2b06-4e4a-9af5-59a6b802293d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1766c1e5-24dc-9973-5d7a-f55c573226db" executionId="060a7a44-0fc8-4b18-9439-d6385aa64ad8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b5fdca7-79bb-0aea-bc47-0e9b0ae925e7" executionId="43029dc3-37a2-4247-a04a-2213328c41b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="122c5757-6b3b-f3ed-dce9-39b46d0e7f81" executionId="680dd096-9d68-4dbc-8818-0656276074f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c218272f-61c4-09da-f3b8-cffc9ed72425" executionId="bb35656a-7cf8-4d9d-ab45-2a0118b8d41a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6610fff-dc8f-197f-54c9-e7c0c67c903b" executionId="e9c826c1-9870-4464-8e96-95a4e072ae4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c25642e2-f655-6451-a9cf-cc6890dd573d" executionId="a72b0aab-de11-4b58-bf6d-8c8ce7966a06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2cd4a441-f24a-8cf3-8cf2-644ab74e1e8d" executionId="527495b7-b3a8-43fa-a137-2f31694fc245" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="827b6f9d-db54-38ba-d2f5-ff879e191a25" executionId="303bb037-f4b0-41fd-8533-40c66e8fa52f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="25" executed="25" passed="25" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.6.0.0: Test execution started&#xD;
+Running all tests in D:\Work\Game_Dev\Games\player-study\PlayerStudy.Test\bin\Debug\net8.0\PlayerStudy.Test.dll&#xD;
+   NUnit3TestExecutor discovered 25 of 25 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.6.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

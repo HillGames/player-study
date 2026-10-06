@@ -1,0 +1,16 @@
+<Project Sdk="Godot.NET.Sdk/4.8.0-dev.6">
+  <ItemGroup>
+    <ProjectReference Include="PlayerStudy.Core\PlayerStudy.Core.csproj" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net9.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="PlayerStudy.Core/**/*.cs" />
+    <Compile Remove="PlayerStudy.Test/**/*.cs" />
+  </ItemGroup>
+
+</Project>

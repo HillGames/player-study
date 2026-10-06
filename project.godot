@@ -11,13 +11,17 @@ config_version=5
 [application]
 
 config/name="PlayerStudy"
-config/features=PackedStringArray("4.8", "Forward Plus")
+config/features=PackedStringArray("4.8", "C#", "Forward Plus")
 config/icon="res://icon.svg"
 
 [display]
 
 window/stretch/mode="canvas_items"
 window/stretch/aspect="expand"
+
+[dotnet]
+
+project/assembly_name="PlayerStudy"
 
 [gui]
 
