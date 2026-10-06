@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Work\\Game_Dev\\Games\\player-study\\PlayerStudy.Core\\PlayerStudy.Core.csproj": {}
+    "D:\\Work\\Game_Dev\\Games\\player-study\\PlayerStudy.Core\\PlayerStudy.Core.csproj": {}
   },
   "projects": {
-    "d:\\Work\\Game_Dev\\Games\\player-study\\PlayerStudy.Core\\PlayerStudy.Core.csproj": {
+    "D:\\Work\\Game_Dev\\Games\\player-study\\PlayerStudy.Core\\PlayerStudy.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Work\\Game_Dev\\Games\\player-study\\PlayerStudy.Core\\PlayerStudy.Core.csproj",
+        "projectUniqueName": "D:\\Work\\Game_Dev\\Games\\player-study\\PlayerStudy.Core\\PlayerStudy.Core.csproj",
         "projectName": "PlayerStudy.Core",
-        "projectPath": "d:\\Work\\Game_Dev\\Games\\player-study\\PlayerStudy.Core\\PlayerStudy.Core.csproj",
+        "projectPath": "D:\\Work\\Game_Dev\\Games\\player-study\\PlayerStudy.Core\\PlayerStudy.Core.csproj",
         "packagesPath": "C:\\Users\\TUTTU\\.nuget\\packages\\",
-        "outputPath": "d:\\Work\\Game_Dev\\Games\\player-study\\PlayerStudy.Core\\obj\\",
+        "outputPath": "D:\\Work\\Game_Dev\\Games\\player-study\\PlayerStudy.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

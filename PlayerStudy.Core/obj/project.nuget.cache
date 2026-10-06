@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4GNH3oNIsj8=",
+  "dgSpecHash": "wHUWT8GFQ6U=",
   "success": true,
-  "projectFilePath": "d:\\Work\\Game_Dev\\Games\\player-study\\PlayerStudy.Core\\PlayerStudy.Core.csproj",
+  "projectFilePath": "D:\\Work\\Game_Dev\\Games\\player-study\\PlayerStudy.Core\\PlayerStudy.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TUTTU\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.18\\microsoft.netcore.app.ref.8.0.18.nupkg.sha512",
     "C:\\Users\\TUTTU\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.18\\microsoft.windowsdesktop.app.ref.8.0.18.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g3luB6jO8/A=",
+  "dgSpecHash": "4ynIOZ8L6nI=",
   "success": true,
-  "projectFilePath": "d:\\Work\\Game_Dev\\Games\\player-study\\PlayerStudy.Test\\PlayerStudy.Test.csproj",
+  "projectFilePath": "D:\\Work\\Game_Dev\\Games\\player-study\\PlayerStudy.Test\\PlayerStudy.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TUTTU\\.nuget\\packages\\coverlet.collector\\6.0.2\\coverlet.collector.6.0.2.nupkg.sha512",
     "C:\\Users\\TUTTU\\.nuget\\packages\\microsoft.codecoverage\\17.12.0\\microsoft.codecoverage.17.12.0.nupkg.sha512",
